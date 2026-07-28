@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/reivindicar/:slug", "destination": "/reivindicar.html" },
+    { "source": "/admin/oficinas",    "destination": "/reivindicar.html" },
+    { "source": "/(.*)",              "destination": "/index.html" }
+  ]
+}
